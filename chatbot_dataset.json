@@ -1,0 +1,209 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "yo", "hey bro", "hello bot",
+        "hi there", "good morning", "good evening", "good afternoon",
+        "namaste", "namaskar", "hola", "hey assistant", "what's up",
+        "sup", "hey yaar", "hi buddy", "hello friend", "hi chatbot"
+      ],
+      "responses": [
+        "Hey! How can I help you?",
+        "Hello! What’s up?",
+        "Hi there, what can I do for you?",
+        "Hello! Ask me anything.",
+        "Hey! I'm here."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "see ya", "take care", "i have to go",
+        "talk to you later", "good night", "ok bye", "bye bot", "see you soon",
+        "catch you later", "i'm leaving", "logging off", "closing chat"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later.",
+        "Take care.",
+        "Catch you soon.",
+        "Bye! Come back anytime."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thank you so much", "thanks a lot",
+        "appreciate it", "shukriya", "thanks buddy", "tysm", "much appreciated",
+        "thank you bot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help.",
+        "No problem at all.",
+        "Anytime!",
+        "Happy to assist."
+      ]
+    },
+
+    {
+      "tag": "identity",
+      "patterns": [
+        "who are you", "what are you", "are you a bot", "what is your name",
+        "tell me about yourself", "bot kaun hai", "are you human",
+        "introduce yourself", "what do i call you", "who am i talking to"
+      ],
+      "responses": [
+        "I'm your chatbot assistant.",
+        "I'm an AI here to help with your questions.",
+        "I'm a virtual assistant designed to assist you.",
+        "Just a friendly bot here."
+      ]
+    },
+
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "how are you", "what are you doing", "talk to me", "i am bored",
+        "i am lonely", "let's chat", "say something", "i feel sad",
+        "i am stressed", "i want to talk", "kya kar rahe ho", "bored hu",
+        "kuch bolo", "are you there", "hello??", "respond", "r u there"
+      ],
+      "responses": [
+        "I'm here. Want to talk about something?",
+        "Tell me what's on your mind.",
+        "I'm listening — go ahead.",
+        "Say anything, I'm here.",
+        "Let's talk. What's happening?"
+      ]
+    },
+
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are stupid", "idiot bot", "fuck you", "bhosdi ke", "chutiya bot",
+        "bakwas bot", "you are dumb", "shut up", "stupid machine",
+        "you are useless", "madarchod", "bc bot", "gaandu bot"
+      ],
+      "responses": [
+        "Let's keep things respectful.",
+        "I'm here to help, not argue.",
+        "I’m trying my best here.",
+        "No need for insults."
+      ]
+    },
+
+    {
+      "tag": "wifi_issue",
+      "patterns": [
+        "wifi not working", "internet slow", "no internet", "wifi disconnect",
+        "internet down", "wifi issue", "network problem", "wifi kaam nahi kar raha",
+        "connection problem", "router not working", "slow network", "ping high",
+        "internet nahi aa raha"
+      ],
+      "responses": [
+        "Try restarting your router.",
+        "Check if other devices have internet.",
+        "Move closer to the router.",
+        "Reconnect to your WiFi network."
+      ]
+    },
+
+    {
+      "tag": "system_issue",
+      "patterns": [
+        "my computer is slow", "pc not working", "laptop freeze", "system crash",
+        "blue screen", "pc stuck", "windows hang", "laptop not booting",
+        "computer problem", "system overheating", "device slow", "lagging issue"
+      ],
+      "responses": [
+        "Try restarting your device.",
+        "Check your storage and RAM usage.",
+        "Close background applications.",
+        "Make sure your OS is up to date."
+      ]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke", "make me laugh", "funny joke", "joke sunao",
+        "something funny", "say a joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "I tried to catch fog yesterday. I mist.",
+        "Why did the computer go to therapy? Too many bytes of sadness.",
+        "Debugging: Being the detective in a crime where you're also the murderer."
+      ]
+    },
+
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "tell me a fact", "fun fact", "interesting fact", "give me a fact",
+        "kuch interesting batao", "fact batao"
+      ],
+      "responses": [
+        "Honey never spoils — even 3000-year-old honey is edible.",
+        "Octopuses have three hearts.",
+        "A cloud can weigh over a million pounds.",
+        "Bananas are berries, but strawberries aren't."
+      ]
+    },
+
+    {
+      "tag": "ai_handoff",
+      "patterns": [
+        "solve this math", "what is 2+2", "calculate this", "solve equation",
+        "do maths", "maths solve karo", "python code likho", "write code",
+        "debug my code", "explain neural networks", "explain ai", "deep learning explain",
+        "write python function", "integral solve", "derivative solve",
+        "physics explain", "science question", "chemistry explain",
+        "complex topic", "advanced explanation", "detail me samjhao",
+        "long explanation", "give full explanation", "teach me this",
+        "programming question", "coding problem", "explain this",
+        "history detailed answer", "complete explanation", "write an essay",
+        "translate this", "math problem solve", "hard question", "tricky question"
+      ],
+      "responses": [
+        "Forwarding this to the AI model.",
+        "Let me send this to the advanced AI.",
+        "This needs deeper reasoning — asking DeepSeek.",
+        "Processing with AI…"
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": [
+        "asdkjhaskdjh",
+        "blargh blergh",
+        "random text",
+        "???",
+        "idk what im saying",
+        "nonsense input",
+        "hmm???",
+        "gjhgjhgjhgj",
+        "@@@@####",
+        "blah blah",
+        "kya bakwas hai ye",
+        "mlem mlem",
+        "lol what",
+        "no idea what this is",
+        "uhhhhhh"
+      ],
+      "responses": [
+        "I didn't understand that.",
+        "Can you rephrase?",
+        "I'm not sure what you mean.",
+        "Try asking in a different way."
+      ]
+    }
+
+  ]
+}

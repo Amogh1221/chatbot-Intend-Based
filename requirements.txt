@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+numpy
+scikit-learn
+pickle-mixin
+requests
+python-dotenv
